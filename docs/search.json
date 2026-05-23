@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Software Installation",
+    "section": "",
+    "text": "Latest version of R\nLatest version of RStudio\nFor Windows users only: Latest version of Rtools"
+  },
+  {
+    "objectID": "index.html#what-software-do-we-need-to-join-the-lecture",
+    "href": "index.html#what-software-do-we-need-to-join-the-lecture",
+    "title": "Software Installation",
+    "section": "",
+    "text": "Latest version of R\nLatest version of RStudio\nFor Windows users only: Latest version of Rtools"
+  },
+  {
+    "objectID": "index.html#from-where-should-we-download-the-software",
+    "href": "index.html#from-where-should-we-download-the-software",
+    "title": "Software Installation",
+    "section": "2. From where should we download the software?",
+    "text": "2. From where should we download the software?\n\n2.1 Link to download R software: https://cran.rstudio.com/\nTo install R on Windows, click the “Download R for Windows” link. Then click the “base” link. Next, click “Download R-4.6.0 for Windows”. The downloading will start.\nTo install R on a Mac, click the “Download R for Mac” link. Next, click on the R-4.6.0-arm64.pkg.\n\n\n2.2 Link to download R Studio software: https://posit.co/download/rstudio-desktop\nJust click the “Download RStudio for XXXX” button, where XXXX is your operating system.\n\n\n2.3 Link to download RTools: https://cran.r-project.org/bin/windows/Rtools/\nFind and download the version compatible with your installed version of R. For example, if you have R version 4.5.3, you need to install the corresponding Rtools version that matches it. That is “R Tools 4.5.” If there is no compatible Rtools version available for your R version, then download the latest available Rtools release.\nFind and download the version compatible with your installed version of R."
+  },
+  {
+    "objectID": "index.html#how-to-install-software",
+    "href": "index.html#how-to-install-software",
+    "title": "Software Installation",
+    "section": "3. How to install software?",
+    "text": "3. How to install software?\nFirst, install R. Run the installer and complete the setup step by step.\nAfter completing the installation of R, next install RStudio. Install it like a normal application.\nAfter that, install Rtools (Windows users only) by using the version that is compatible with your installed version of R. Complete the installation process.\nNote: Do not install them in parallel. Install R first, then RStudio, and finally Rtools."
+  },
+  {
+    "objectID": "index.html#how-can-we-verify-whether-all-three-software-r-rstudio-and-rtools-have-been-installed-correctly",
+    "href": "index.html#how-can-we-verify-whether-all-three-software-r-rstudio-and-rtools-have-been-installed-correctly",
+    "title": "Software Installation",
+    "section": "4. How can we verify whether all three software (R, RStudio, and Rtools) have been installed correctly?",
+    "text": "4. How can we verify whether all three software (R, RStudio, and Rtools) have been installed correctly?\nYou can check whether everything is installed properly in a simple way after setup.\nFirst, open RStudio. If it opens without errors, R is already correctly installed (because RStudio runs on top of R).\nThen in the RStudio Console, type the following command and press enter.\nR.version.string\nIf it shows a version number like R 4.x.x, then R is correctly installed.\nFor Rtools (Windows only), run the following command as well\nSys.which(\"make\")\nYou should be able to see a message like \"C:\\\\rtools45\\\\usr\\\\bin\\\\make.exe\".\nIf it returns a path (not empty), Rtools is correctly configured."
+  },
+  {
+    "objectID": "index.html#optional-step-only-for-windows-users",
+    "href": "index.html#optional-step-only-for-windows-users",
+    "title": "Software Installation",
+    "section": "5. Optional step only for windows users",
+    "text": "5. Optional step only for windows users\nType the following\ninstall.packages(\"pkgbuild\")\npkgbuild::has_build_tools(debug = TRUE)\nIf it returns TRUE, everything (R + Rtools) is set up properly for package installation."
+  },
+  {
+    "objectID": "index.html#additional-resourcs",
+    "href": "index.html#additional-resourcs",
+    "title": "Software Installation",
+    "section": "6. Additional resourcs",
+    "text": "6. Additional resourcs\nVideo illustrations\nInstalling R\nInstalling R Studio"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Lecturer-in-charge: [Dr Thiyanga S. Talagala, Senior Lectuer, University of Sri Jayewardenepura](https://thiyanga.netlify.app/)."
+  },
+  {
+    "objectID": "about.html#lecture-1-24-may-2026",
+    "href": "about.html#lecture-1-24-may-2026",
+    "title": "About",
+    "section": "Lecture 1: 24 May 2026",
+    "text": "Lecture 1: 24 May 2026\nTopics to cover:\n\nIntroduction to R and RStudio\nData structures\nSimplifying vector creation\nHandling missing values\nLogical operators\n\nAdditional reading: [Chapter 1, Chapter 2](https://thiyangt.github.io/rbook/)"
+  }
+]
