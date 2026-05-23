@@ -7,26 +7,23 @@ editor: "source"
 
 -   Latest version of R
 
+-   Latest version of RStudio
 
-
--    Latest version of RStudio
-
-
--    For Windows users only: Latest version of Rtools
+-   For Windows users only: Latest version of Rtools
 
 ## 2. From where should we download the software?
 
-### 2.1 Link to download R software: [https://cran.rstudio.com/](https://cran.rstudio.com/)
+### 2.1 Link to download R software: <https://cran.rstudio.com/>
 
 To install R on **Windows**, click the “Download R for Windows” link. Then click the “base” link. Next, click “Download R-4.6.0 for Windows". The downloading will start.
 
 To install R on a **Mac**, click the “Download R for Mac” link. Next, click on the `R-4.6.0-arm64.pkg`.
 
-### 2.2 Link to download R Studio software: [https://posit.co/download/rstudio-desktop](https://posit.co/download/rstudio-desktop)
+### 2.2 Link to download R Studio software: <https://posit.co/download/rstudio-desktop>
 
 Just click the “Download RStudio for XXXX” button, where XXXX is your operating system.
 
-###  2.3 Link to download RTools: [https://cran.r-project.org/bin/windows/Rtools/](https://cran.r-project.org/bin/windows/Rtools/)
+### 2.3 Link to download RTools: <https://cran.r-project.org/bin/windows/Rtools/>
 
 Find and download the version compatible with your installed version of R. For example, if you have R version 4.5.3, you need to install the corresponding Rtools version that matches it. That is "R Tools 4.5. " If there is no compatible Rtools version available for your R version, then download the latest available Rtools release.
 
@@ -50,7 +47,7 @@ First, open RStudio. If it opens without errors, R is already correctly installe
 
 Then in the RStudio Console, type the following command and press enter.
 
-```r
+``` r
 R.version.string
 ```
 
@@ -58,11 +55,11 @@ If it shows a version number like R 4.x.x, then R is correctly installed.
 
 For Rtools (Windows only), run the following command as well
 
-```r
+``` r
 Sys.which("make")
 ```
 
-You should be able to  see a message like `"C:\\rtools45\\usr\\bin\\make.exe" `.
+You should be able to see a message like `"C:\\rtools45\\usr\\bin\\make.exe"`.
 
 If it returns a path (not empty), Rtools is correctly configured.
 
@@ -70,10 +67,17 @@ If it returns a path (not empty), Rtools is correctly configured.
 
 Type the following
 
-```r
+``` r
 install.packages("pkgbuild")
 pkgbuild::has_build_tools(debug = TRUE)
 ```
 
 If it returns TRUE, everything (R + Rtools) is set up properly for package installation.
-```
+
+## 6. Additional resourcs
+
+Video illustrations
+
+[Installing R](youtube.com/watch?v=aRwxsAEoRzs&pp=0gcJCQYLAYcqIYzv)
+
+[Installing R Studio](https://www.youtube.com/watch?v=Q1NRj2Dzdn0)
