@@ -1,0 +1,21 @@
+---
+title: "About"
+---
+
+Lecturer-in-charge: \[Dr Thiyanga S. Talagala, Senior Lectuer, University of Sri Jayewardenepura\](<https://thiyanga.netlify.app/>).
+
+## Lecture 1: 24 May 2026
+
+Topics to cover:
+
+-   Introduction to R and RStudio
+
+-   Data structures
+
+-   **Simplifying vector creation**
+
+-   Handling missing values
+
+-   Logical operators
+
+Additional reading: \[Chapter 1, Chapter 2\](<https://thiyangt.github.io/rbook/>)
