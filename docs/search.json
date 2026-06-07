@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "lesson2.html",
+    "href": "lesson2.html",
+    "title": "Lesson 2: Documenting with Rmrkdown",
+    "section": "",
+    "text": "library(tidyverse)\nlibrary(knitr)"
+  },
+  {
+    "objectID": "lesson2.html#background-of-the-study",
+    "href": "lesson2.html#background-of-the-study",
+    "title": "Lesson 2: Documenting with Rmrkdown",
+    "section": "Background of the Study",
+    "text": "Background of the Study\nThis is an introduction to RMarkdown."
+  },
+  {
+    "objectID": "lesson2.html#objectives",
+    "href": "lesson2.html#objectives",
+    "title": "Lesson 2: Documenting with Rmrkdown",
+    "section": "Objectives",
+    "text": "Objectives"
+  },
+  {
+    "objectID": "lesson2.html#significance",
+    "href": "lesson2.html#significance",
+    "title": "Lesson 2: Documenting with Rmrkdown",
+    "section": "Significance",
+    "text": "Significance\n\nOutline\n\nItem 1\nItem 2\nItem 3"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Lecturer-in-charge: Dr Thiyanga S. Talagala, Senior Lectuer, University of Sri Jayewardenepura."
+  },
+  {
+    "objectID": "about.html#lecture-1-24-may-2026",
+    "href": "about.html#lecture-1-24-may-2026",
+    "title": "About",
+    "section": "Lecture 1: 24 May 2026",
+    "text": "Lecture 1: 24 May 2026\nTopics to cover:\n\nIntroduction to R and RStudio\nData structures\nSimplifying vector creation\nHandling missing values\nLogical operators\n\nAdditional reading: Chapter 1, Chapter 2"
+  },
+  {
+    "objectID": "about.html#lecture-2-7-july-2026",
+    "href": "about.html#lecture-2-7-july-2026",
+    "title": "About",
+    "section": "Lecture 2: 7 July 2026",
+    "text": "Lecture 2: 7 July 2026\nLink to the book\n\nLogical operators: Chapter 5\nData import and export: In-class demo\nDocumenting with RMarkdown: In-class demo\nIntroduction to tidyverse: Chapter 7\ntibble, pipe operator, factors: Chapter 7\nData wrangling with tidyr and dplyr: Chapter 8\n\nScript file\nRmarkdown file"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Software Installation",
@@ -47,26 +96,5 @@
     "title": "Software Installation",
     "section": "6. Additional resourcs",
     "text": "6. Additional resourcs\nVideo illustrations\nInstalling R\nInstalling R Studio"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Lecturer-in-charge: Dr Thiyanga S. Talagala, Senior Lectuer, University of Sri Jayewardenepura."
-  },
-  {
-    "objectID": "about.html#lecture-1-24-may-2026",
-    "href": "about.html#lecture-1-24-may-2026",
-    "title": "About",
-    "section": "Lecture 1: 24 May 2026",
-    "text": "Lecture 1: 24 May 2026\nTopics to cover:\n\nIntroduction to R and RStudio\nData structures\nSimplifying vector creation\nHandling missing values\nLogical operators\n\nAdditional reading: Chapter 1, Chapter 2"
-  },
-  {
-    "objectID": "about.html#lecture-2-7-july-2026",
-    "href": "about.html#lecture-2-7-july-2026",
-    "title": "About",
-    "section": "Lecture 2: 7 July 2026",
-    "text": "Lecture 2: 7 July 2026\nLink to the book\n\nLogical operators: Chapter 5\nData import and export: In-class demo\nDocumenting with RMarkdown: In-class demo\nIntroduction to tidyverse: Chapter 7\ntibble, pipe operator, factors: Chapter 7\nData wrangling with tidyr and dplyr: Chapter 8"
   }
 ]

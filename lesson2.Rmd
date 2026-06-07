@@ -1,0 +1,102 @@
+---
+title: "Lesson 2: Documenting with Rmrkdown"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+    toc_float: 
+      collapsed: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(knitr)
+```
+
+# Introduction
+
+## Background of the Study
+
+This is an introduction to RMarkdown.
+
+## Objectives
+
+## Significance
+
+### Outline
+
+ - Item 1
+ 
+ - Item 2
+ 
+ - Item 3
+ 
+# Formatting
+
+- Normal text
+
+- **Bold text**
+
+- ~~text~~
+
+# Coding
+
+**First code**
+
+```{r}
+weight <- c(50, 51, 52, 53, 54, 55, 56, 57, 58, 59)
+height <- 150:159
+df <- data.frame(weight, height)
+df
+```
+
+
+**Second code**
+
+```{r}
+library(ggplot2)
+ggplot(df, aes(x=weight, y=height)) +
+  geom_point()
+```
+
+**Third code**
+
+```{r, comment=NA}
+weight <- c(50, 51, 52, 53, 54, 55, 56, 57, 58, 59)
+height <- 150:159
+df <- data.frame(weight, height)
+df
+```
+
+**4. code**
+
+```{r, comment=NA, echo=FALSE}
+weight <- c(50, 51, 52, 53, 54, 55, 56, 57, 58, 59)
+height <- 150:159
+df <- data.frame(weight, height)
+df
+```
+
+**5. code**
+
+```{r, eval=FALSE}
+weight <- c(50, 51, 52, 53, 54, 55, 56, 57, 58, 59)
+height <- 150:159
+df <- data.frame(weight, height)
+df
+```
+
+
+# Latex
+
+
+The equation $y=mx+c$
+
+$$\frac{a}{b} = 5$$
+
+

@@ -24,14 +24,18 @@ Additional reading: [Chapter 1, Chapter 2](https://thiyangt.github.io/rbook/)
 
 Link to the [book](https://thiyangt.github.io/rbook/)
 
-- Logical operators: Chapter 5
+-   Logical operators: Chapter 5
 
-- Data import and export: In-class demo
+-   Data import and export: In-class demo
 
-- Documenting with RMarkdown: In-class demo
+-   Documenting with RMarkdown: In-class demo
 
-- Introduction to tidyverse: Chapter 7
+-   Introduction to tidyverse: Chapter 7
 
-- tibble, pipe operator, factors: Chapter 7
+-   tibble, pipe operator, factors: Chapter 7
 
-- Data wrangling with tidyr and dplyr: Chapter 8
+-   Data wrangling with tidyr and dplyr: Chapter 8
+
+[Script file](scr1.R)
+
+[Rmarkdown file](lesson2.Rmd)
