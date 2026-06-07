@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-Lecturer-in-charge: \[Dr Thiyanga S. Talagala, Senior Lectuer, University of Sri Jayewardenepura\](<https://thiyanga.netlify.app/>).
+Lecturer-in-charge: [Dr Thiyanga S. Talagala, Senior Lectuer, University of Sri Jayewardenepura](https://thiyanga.netlify.app/).
 
 ## Lecture 1: 24 May 2026
 
@@ -18,4 +18,20 @@ Topics to cover:
 
 -   Logical operators
 
-Additional reading: \[Chapter 1, Chapter 2\](<https://thiyangt.github.io/rbook/>)
+Additional reading: [Chapter 1, Chapter 2](https://thiyangt.github.io/rbook/)
+
+## Lecture 2: 7 July 2026
+
+Link to the [book](https://thiyangt.github.io/rbook/)
+
+- Logical operators: Chapter 5
+
+- Data import and export: In-class demo
+
+- Documenting with RMarkdown: In-class demo
+
+- Introduction to tidyverse: Chapter 7
+
+- tibble, pipe operator, factors: Chapter 7
+
+- Data wrangling with tidyr and dplyr: Chapter 8
