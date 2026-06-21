@@ -49,3 +49,5 @@ Introduction to grammar of graphics
 # Lecture 4: 21 June 2026
 
 [Control Structure](/Rcontrolstructures.pdf)
+
+[In class R codes](/June212026.R)
