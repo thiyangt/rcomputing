@@ -39,3 +39,13 @@ Link to the [book](https://thiyangt.github.io/rbook/)
 [Script file](scr1.R)
 
 [Rmarkdown file](lesson2.Rmd)
+
+# Lecture 3: 14 June 2026
+
+dplyr functions
+
+Introduction to grammar of graphics
+
+# Lecture 4: 21 June 2026
+
+[Control Structure](/Rcontrolstructures.pdf)
